@@ -7,7 +7,7 @@
   },
   "servers": [
     {
-      "url": "http://localhost:8091",
+      "url": "https://dev-wifi-mesh-bff.clarobrasil.mobi:443",
       "description": "Inferred Url"
     }
   ],
