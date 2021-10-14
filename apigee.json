@@ -2,8 +2,21 @@
   "openapi": "3.0.3",
   "info": {
     "title": "Wifi Mesh – Mesh Devices (Proxy Apigee: residential-wifimesh-v1)",
-    "version": "v1"
+    "description": "API responsável por prover as operações relacionadas a obter os detalhes dos equipamentos extensores associados ao contrato.<br><table>\n  <thead>\n    <tr>\n      <th>Versão</th>\n      <th>Elaborado por</th>\n      <th>Data</th>\n      <th>Alterações</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>1.0.0</td>\n      <td>Gerson Lima</td>\n      <td>2021-09-08</td>\n      <td>[Claro WIFI Mesh] Versão inicial para atender o MVP</td>\n    </tr>\n  </tbody>\n</table>",
+    "version": "1.0.0"
   },
+  "servers": [
+    {
+      "url": "http://localhost:8091",
+      "description": "Inferred Url"
+    }
+  ],
+  "tags": [
+    {
+      "name": "mesh-devices-controller",
+      "description": "Mesh Devices Controller"
+    }
+  ],
   "paths": {
     "/residential/v1/wifimesh/terminals": {
       "get": {
